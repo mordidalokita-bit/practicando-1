@@ -30,8 +30,11 @@ public class Cliente {
                 +"\nNombre Cliente: " + nombre+
                 "\nDNI Cliente:" + dni +
                 "\nTelefono: " + telefono+
-                "\nPuntos: " + puntos);
+                "\n" +
+                        "Puntos: " + puntos);
+        System.out.println(" Tiburonsin BUAJAJA");
     }
+
 
 
     // LOS ATRIBUTOS AUN NO TIENEN VALORES, TENDRAN VALORES CUANDO SE CREEN LOS OBJETOS
