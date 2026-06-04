@@ -33,6 +33,7 @@ public class Cliente {
                 "\n" +
                         "Puntos: " + puntos);
         System.out.println(" Tiburonsin BUAJAJA");
+        System.out.println("Probando Cuenta Colavorativa ");
     }
 
 
