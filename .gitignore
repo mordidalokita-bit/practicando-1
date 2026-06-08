@@ -28,3 +28,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+on:
+   push:
+      branches: [main, protected]
+   pull_request:
+      branches: [main]
+      paths-ignore:
+         - '**/*.md'
+         - '**/*.txt'
+on:
+   push:
+      branches: [main, protected]
+   pull_request:
+      branches: [main]
+   schedule:
+      - cron: '20 14 * * 1'
