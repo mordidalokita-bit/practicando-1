@@ -10,8 +10,10 @@ public class Cliente {
     void nombreCliente(){
         System.out.println("El nombre del cliente es "+nombre );
     }
+    
     void dniNumero(){
         System.out.println("El dni del cliente es :" + dni);
+         System.out.println("El cambio es este print");
     }
     void telefonoNumero(){
         System.out.println("El telefono del Cliente es :" + telefono);
